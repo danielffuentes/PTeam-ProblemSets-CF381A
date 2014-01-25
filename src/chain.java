@@ -37,7 +37,6 @@ public class chain<T>
             {
                 i.getPrevious().setNext(i.getNext());
                 i.getNext().setPrevious(i.getPrevious());
-                delete i;
             }
         }
     }
